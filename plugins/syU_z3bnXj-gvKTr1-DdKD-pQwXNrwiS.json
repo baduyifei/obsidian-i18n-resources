@@ -1,0 +1,394 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "header-adjuster",
+        "version": "1.0.0",
+        "title": "Header Adjuster",
+        "description": "Header Adjuster Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Header Adjuster] Applying changes:",
+                    "target": "[标题调整器] 应用更改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Header Adjuster] No header level changes to apply.",
+                    "target": "[标题调整器] 没有标题级别更改要应用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Header Adjuster] Adjustment level is 0, skipping.",
+                    "target": "[标题调整器] 调整级别为0，跳过。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Header Adjuster Plugin",
+                    "target": "正在加载标题调整器插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Header Adjuster Plugin",
+                    "target": "正在卸载标题调整器插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Submit",
+                    "target": "提交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default number of levels to increase headers by.",
+                    "target": "增加标题级别的默认数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default number of levels to decrease headers by.",
+                    "target": "减少标题级别的默认数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply adjustment starting from this line number.",
+                    "target": "从这个行号开始应用调整。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Apply adjustment up to and including this line number.",
+                    "target": "将调整应用到包括此行号在内的所有行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default increase level",
+                    "target": "默认增加级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default decrease level",
+                    "target": "默认减少级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start line (optional)",
+                    "target": "起始行（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "End line (optional)",
+                    "target": "结束行（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., 1",
+                    "target": "例如，1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., 50",
+                    "target": "例如，50"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Increase level...",
+                    "target": "增加级别..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Decrease level...",
+                    "target": "减少级别..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Increase level by 1 (Document)",
+                    "target": "增加级别1（文档）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Decrease level by 1 (Document)",
+                    "target": "将级别减少1（文档）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Header Adjuster] Start line is after end line, skipping adjustment.",
+                    "target": "[标题调整器] 开始行在结束行之后，跳过调整。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Header Adjuster] Adjustment level is negative, skipping.",
+                    "target": "[标题调整器] 调整级别为负，跳过。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid positive number for levels.",
+                    "target": "请输入一个有效的正数作为级别。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid positive number for start line.",
+                    "target": "请输入一个有效的正数作为开始行。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid positive number for end line.",
+                    "target": "请输入一个有效的正数作为结束行。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "End line cannot be before start line.",
+                    "target": "结束行不能在开始行之前。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No headers found in the specified range/selection.",
+                    "target": "在指定的范围/选择中未找到标题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No header levels needed adjustment in the range.",
+                    "target": "在范围内不需要调整标题级别。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor found.",
+                    "target": "未找到活动的编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select text containing headers first.",
+                    "target": "首先选择包含标题的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Increase header level...",
+                    "target": "增加标题级别..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decrease header level...",
+                    "target": "减少标题级别..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Header Adjuster Settings",
+                    "target": "标题调整器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Adjust Header Levels",
+                    "target": "调整标题级别"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Default increase level\")",
+                    "target": "setName(\"Default increase level\")"
+                },
+                {
+                    "source": "setDesc(\"The default number of levels to increase headers by.\")",
+                    "target": "setDesc(\"The default number of levels to increase headers by.\")"
+                },
+                {
+                    "source": "setName(\"Default decrease level\")",
+                    "target": "setName(\"Default decrease level\")"
+                },
+                {
+                    "source": "setDesc(\"The default number of levels to decrease headers by.\")",
+                    "target": "setDesc(\"The default number of levels to decrease headers by.\")"
+                },
+                {
+                    "source": "setName(`Levels to ${this.operation}`)",
+                    "target": "setName(`Levels to ${this.operation}`)"
+                },
+                {
+                    "source": "setDesc(`Leave blank to use default (${defaultLevel})`)",
+                    "target": "setDesc(`Leave blank to use default (${defaultLevel})`)"
+                },
+                {
+                    "source": "setName(\"Start line (optional)\")",
+                    "target": "setName(\"Start line (optional)\")"
+                },
+                {
+                    "source": "setDesc(\"Apply adjustment starting from this line number.\")",
+                    "target": "setDesc(\"Apply adjustment starting from this line number.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g., 1\")",
+                    "target": "setPlaceholder(\"e.g., 1\")"
+                },
+                {
+                    "source": "setName(\"End line (optional)\")",
+                    "target": "setName(\"End line (optional)\")"
+                },
+                {
+                    "source": "setDesc(\"Apply adjustment up to and including this line number.\")",
+                    "target": "setDesc(\"Apply adjustment up to and including this line number.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g., 50\")",
+                    "target": "setPlaceholder(\"e.g., 50\")"
+                },
+                {
+                    "source": "Notice(\"Please enter a valid positive number for levels.\")",
+                    "target": "Notice(\"Please enter a valid positive number for levels.\")"
+                },
+                {
+                    "source": "Notice(\"Please enter a valid positive number for start line.\")",
+                    "target": "Notice(\"Please enter a valid positive number for start line.\")"
+                },
+                {
+                    "source": "Notice(\"Please enter a valid positive number for end line.\")",
+                    "target": "Notice(\"Please enter a valid positive number for end line.\")"
+                },
+                {
+                    "source": "Notice(\"End line cannot be before start line.\")",
+                    "target": "Notice(\"End line cannot be before start line.\")"
+                },
+                {
+                    "source": "log(\"[Header Adjuster] Applying changes:\", actualChanges);\n    editor.transaction({\n      changes: actualChanges\n      // Pass the filtered array of valid EditorChange objects\n    });\n  } else {\n    console.log(\"[Header Adjuster] No header level changes to apply.\")",
+                    "target": "log(\"[Header Adjuster] Applying changes:\", actualChanges);\n    editor.transaction({\n      changes: actualChanges\n      // Pass the filtered array of valid EditorChange objects\n    });\n  } else {\n    console.log(\"[Header Adjuster] No header level changes to apply.\")"
+                },
+                {
+                    "source": "log(\"[Header Adjuster] Adjustment level is 0, skipping.\")",
+                    "target": "log(\"[Header Adjuster] Adjustment level is 0, skipping.\")"
+                },
+                {
+                    "source": "log(`[Header Adjuster] Parsing headers from line ${startLine + 1} to ${endLine + 1}`)",
+                    "target": "log(`[Header Adjuster] Parsing headers from line ${startLine + 1} to ${endLine + 1}`)"
+                },
+                {
+                    "source": "Notice(\"No headers found in the specified range/selection.\")",
+                    "target": "Notice(\"No headers found in the specified range/selection.\")"
+                },
+                {
+                    "source": "log(`[Header Adjuster] Found ${headersInRange.length} headers in range.`)",
+                    "target": "log(`[Header Adjuster] Found ${headersInRange.length} headers in range.`)"
+                },
+                {
+                    "source": "Notice(`Adjusted ${changedCount} header(s).`)",
+                    "target": "Notice(`Adjusted ${changedCount} header(s).`)"
+                },
+                {
+                    "source": "Notice(`No header levels needed adjustment in the range.`)",
+                    "target": "Notice(`No header levels needed adjustment in the range.`)"
+                },
+                {
+                    "source": "Notice(\"No active editor found.\")",
+                    "target": "Notice(\"No active editor found.\")"
+                },
+                {
+                    "source": "log(\"Loading Header Adjuster Plugin\")",
+                    "target": "log(\"Loading Header Adjuster Plugin\")"
+                },
+                {
+                    "source": "setTitle(\"Increase level...\")",
+                    "target": "setTitle(\"Increase level...\")"
+                },
+                {
+                    "source": "setTitle(\"Decrease level...\")",
+                    "target": "setTitle(\"Decrease level...\")"
+                },
+                {
+                    "source": "setTitle(\"Increase level by 1 (Document)\")",
+                    "target": "setTitle(\"Increase level by 1 (Document)\")"
+                },
+                {
+                    "source": "setTitle(\"Decrease level by 1 (Document)\")",
+                    "target": "setTitle(\"Decrease level by 1 (Document)\")"
+                },
+                {
+                    "source": "setTitle(`Increase level by (+${this.settings.increaseLevel}) (Selection)`)",
+                    "target": "setTitle(`Increase level by (+${this.settings.increaseLevel}) (Selection)`)"
+                },
+                {
+                    "source": "Notice(\"Select text containing headers first.\")",
+                    "target": "Notice(\"Select text containing headers first.\")"
+                },
+                {
+                    "source": "setTitle(`Decrease level by  (-${this.settings.decreaseLevel}) (Selection)`)",
+                    "target": "setTitle(`Decrease level by  (-${this.settings.decreaseLevel}) (Selection)`)"
+                },
+                {
+                    "source": "log(\"Unloading Header Adjuster Plugin\")",
+                    "target": "log(\"Unloading Header Adjuster Plugin\")"
+                },
+                {
+                    "source": "text: \"Header Adjuster Settings\"",
+                    "target": "text: \"Header Adjuster Settings\""
+                },
+                {
+                    "source": "text: `Adjust Header Levels`",
+                    "target": "text: `Adjust Header Levels`"
+                },
+                {
+                    "source": "name: \"Increase header level...\"",
+                    "target": "name: \"Increase header level...\""
+                },
+                {
+                    "source": "name: \"Decrease header level...\"",
+                    "target": "name: \"Decrease header level...\""
+                },
+                {
+                    "source": "name: `Increase header level by ${this.settings.increaseLevel} (entire document)`",
+                    "target": "name: `Increase header level by ${this.settings.increaseLevel} (entire document)`"
+                },
+                {
+                    "source": "name: `Decrease header level by ${this.settings.decreaseLevel} (entire document)`",
+                    "target": "name: `Decrease header level by ${this.settings.decreaseLevel} (entire document)`"
+                },
+                {
+                    "source": "name: `Increase header level in selection by ${this.settings.increaseLevel}`",
+                    "target": "name: `Increase header level in selection by ${this.settings.increaseLevel}`"
+                },
+                {
+                    "source": "name: `Decrease header level in selection by ${this.settings.decreaseLevel}`",
+                    "target": "name: `Decrease header level in selection by ${this.settings.decreaseLevel}`"
+                }
+            ]
+        }
+    }
+}

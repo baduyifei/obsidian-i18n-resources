@@ -1,0 +1,598 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "attachment-flow-plugin",
+        "version": "1.0.0",
+        "title": "AttachFlow",
+        "description": "AttachFlow Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "permanent",
+                    "target": "permanent"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete Permanently",
+                    "target": "Delete Permanently"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to Obsidian Trash",
+                    "target": "Move to Obsidian Trash"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to System Trash",
+                    "target": "Move to System Trash"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法找到文本输入框",
+                    "target": "无法找到文本输入框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AttachFlow plugin loaded...",
+                    "target": "AttachFlow plugin loaded..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AttachFlow plugin unloaded...",
+                    "target": "AttachFlow plugin unloaded..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select where you want Attachments to be moved once they are deleted",
+                    "target": "Select where you want Attachments to be moved once they are deleted"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a \"Move to...\" option to the right-click menu for attachments",
+                    "target": "Add a \"Move to...\" option to the right-click menu for attachments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click the right half of the image to view the image in detail.",
+                    "target": "Click the right half of the image to view the image in detail."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When the image exceeds the window size, the image is displayed adaptively according to the window size.",
+                    "target": "When the image exceeds the window size, the image is displayed adaptively according to the window size."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to enable drag to resize images.",
+                    "target": "Turn on to enable drag to resize images."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "拖拽调节最小刻度（默认值为 0 即不对齐刻度）",
+                    "target": "拖拽调节最小刻度（默认值为 0 即不对齐刻度）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Print debug information in console",
+                    "target": "Print debug information in console"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rename:",
+                    "target": "Rename:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Right-click menu for attachments",
+                    "target": "Right-click menu for attachments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deleted attachment destination",
+                    "target": "Deleted attachment destination"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move file to...",
+                    "target": "Move file to..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Click to view images",
+                    "target": "Click to view images"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Adaptive image display ratio based on window size",
+                    "target": "Adaptive image display ratio based on window size"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Drag to resize images",
+                    "target": "Drag to resize images"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Resize interval",
+                    "target": "Resize interval"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug",
+                    "target": "Debug"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "Debug mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename",
+                    "target": "Rename"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move file to...",
+                    "target": "Move file to..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clear file and associated link",
+                    "target": "Clear file and associated link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy file to clipboard",
+                    "target": "Copy file to clipboard"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in default app",
+                    "target": "Open in default app"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reveal file in navigation",
+                    "target": "Reveal file in navigation"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy image to clipboard",
+                    "target": "Copy image to clipboard"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy image link",
+                    "target": "Copy image link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy markdown link",
+                    "target": "Copy markdown link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in external browser",
+                    "target": "Open in external browser"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clear image link",
+                    "target": "Clear image link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete file and its attachments",
+                    "target": "Delete file and its attachments"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": " cannot get the image file",
+                    "target": " cannot get the image file"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Attachment folder have been deleted!",
+                    "target": "Attachment folder have been deleted!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "As other references of current file exist, just deleted the current reference link without deleting the actual file.",
+                    "target": "As other references of current file exist, just deleted the current reference link without deleting the actual file."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fail to find the link-text, please delete it manually!",
+                    "target": "Fail to find the link-text, please delete it manually!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Find multiple same Link in current line, please delete it manually!",
+                    "target": "Find multiple same Link in current line, please delete it manually!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard !",
+                    "target": "Copied to clipboard !"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Faild to copy the file !",
+                    "target": "Faild to copy the file !"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The file is already in the folder!",
+                    "target": "The file is already in the folder!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Faild to delete the file/folder !",
+                    "target": "Faild to delete the file/folder !"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All attachments and its parent folder deleted!",
+                    "target": "All attachments and its parent folder deleted!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入正整数",
+                    "target": "请输入正整数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error, could not rename the file!",
+                    "target": "Error, could not rename the file!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error, could not Move the file!",
+                    "target": "Error, could not Move the file!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error, could not clear the file!",
+                    "target": "Error, could not clear the file!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error, could not copy the file!",
+                    "target": "Error, could not copy the file!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Image copied to clipboard",
+                    "target": "Image copied to clipboard"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy image!",
+                    "target": "Failed to copy image!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Find multiple same image-link in line, please zoom manually!",
+                    "target": "Find multiple same image-link in line, please zoom manually!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clear all attachments in current file",
+                    "target": "clear all attachments in current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete the file and its all attachments - logs ",
+                    "target": "Delete the file and its all attachments - logs "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm",
+                    "target": "Confirm"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(` cannot get the image file`)",
+                    "target": "Notice(` cannot get the image file`)"
+                },
+                {
+                    "source": "Notice(\"Attachment folder have been deleted!\", 3e3);\n      }\n    } else if (deleteOption === \"system-trash\")",
+                    "target": "Notice(\"Attachment folder have been deleted!\", 3e3);\n      }\n    } else if (deleteOption === \"system-trash\")"
+                },
+                {
+                    "source": "Notice(\"Attachment folder have been deleted!\", 3e3);\n      }\n    } else if (deleteOption === \"permanent\")",
+                    "target": "Notice(\"Attachment folder have been deleted!\", 3e3);\n      }\n    } else if (deleteOption === \"permanent\")"
+                },
+                {
+                    "source": "Notice(`Error executing command: ${error.message}`, SUCCESS_NOTICE_TIMEOUT);\n      console.error(`Error executing command: ${error.message}`)",
+                    "target": "Notice(`Error executing command: ${error.message}`, SUCCESS_NOTICE_TIMEOUT);\n      console.error(`Error executing command: ${error.message}`)"
+                },
+                {
+                    "source": "Notice(`Fail to rename for there alreay exist file ${result}`)",
+                    "target": "Notice(`Fail to rename for there alreay exist file ${result}`)"
+                },
+                {
+                    "source": "Notice(\"The file is already in the folder!\", 3e3);\n        return;\n      }\n      let choosed_folder = item.endsWith(\"/\")",
+                    "target": "Notice(\"The file is already in the folder!\", 3e3);\n        return;\n      }\n      let choosed_folder = item.endsWith(\"/\")"
+                },
+                {
+                    "source": "Notice(`Fail to move for there alreay exist file ${new_path}`)",
+                    "target": "Notice(`Fail to move for there alreay exist file ${new_path}`)"
+                },
+                {
+                    "source": "setName(\"Right-click menu for attachments\")",
+                    "target": "setName(\"Right-click menu for attachments\")"
+                },
+                {
+                    "source": "setName(\"Deleted attachment destination\")",
+                    "target": "setName(\"Deleted attachment destination\")"
+                },
+                {
+                    "source": "setDesc(\"Select where you want Attachments to be moved once they are deleted\")",
+                    "target": "setDesc(\"Select where you want Attachments to be moved once they are deleted\")"
+                },
+                {
+                    "source": "setName(\"Move file to...\")",
+                    "target": "setName(\"Move file to...\")"
+                },
+                {
+                    "source": "setDesc('Add a \"Move to...\" option to the right-click menu for attachments')",
+                    "target": "setDesc('Add a \"Move to...\" option to the right-click menu for attachments')"
+                },
+                {
+                    "source": "setName(\"Click to view images\")",
+                    "target": "setName(\"Click to view images\")"
+                },
+                {
+                    "source": "setDesc(\"Click the right half of the image to view the image in detail.\")",
+                    "target": "setDesc(\"Click the right half of the image to view the image in detail.\")"
+                },
+                {
+                    "source": "setName(\"Adaptive image display ratio based on window size\")",
+                    "target": "setName(\"Adaptive image display ratio based on window size\")"
+                },
+                {
+                    "source": "setDesc(\"When the image exceeds the window size, the image is displayed adaptively according to the window size.\")",
+                    "target": "setDesc(\"When the image exceeds the window size, the image is displayed adaptively according to the window size.\")"
+                },
+                {
+                    "source": "Notice(`Adaptive ratio: ${value}`)",
+                    "target": "Notice(`Adaptive ratio: ${value}`)"
+                },
+                {
+                    "source": "setName(\"Drag to resize images\")",
+                    "target": "setName(\"Drag to resize images\")"
+                },
+                {
+                    "source": "setDesc(\"Turn on to enable drag to resize images.\")",
+                    "target": "setDesc(\"Turn on to enable drag to resize images.\")"
+                },
+                {
+                    "source": "setName(\"Resize interval\")",
+                    "target": "setName(\"Resize interval\")"
+                },
+                {
+                    "source": "setName(\"Debug mode\")",
+                    "target": "setName(\"Debug mode\")"
+                },
+                {
+                    "source": "setDesc(\"Print debug information in console\")",
+                    "target": "setDesc(\"Print debug information in console\")"
+                },
+                {
+                    "source": "Notice(\"Error, could not rename the file!\")",
+                    "target": "Notice(\"Error, could not rename the file!\")"
+                },
+                {
+                    "source": "setTitle(\"Move file to...\")",
+                    "target": "setTitle(\"Move file to...\")"
+                },
+                {
+                    "source": "Notice(\"Error, could not Move the file!\")",
+                    "target": "Notice(\"Error, could not Move the file!\")"
+                },
+                {
+                    "source": "setTitle(\"Clear file and associated link\")",
+                    "target": "setTitle(\"Clear file and associated link\")"
+                },
+                {
+                    "source": "Notice(\"Error, could not clear the file!\")",
+                    "target": "Notice(\"Error, could not clear the file!\")"
+                },
+                {
+                    "source": "setTitle(\"Copy file to clipboard\")",
+                    "target": "setTitle(\"Copy file to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Error, could not copy the file!\")",
+                    "target": "Notice(\"Error, could not copy the file!\")"
+                },
+                {
+                    "source": "setTitle(\"Open in default app\")",
+                    "target": "setTitle(\"Open in default app\")"
+                },
+                {
+                    "source": "setTitle(\"Reveal file in navigation\")",
+                    "target": "setTitle(\"Reveal file in navigation\")"
+                },
+                {
+                    "source": "setTitle(\"Copy image to clipboard\")",
+                    "target": "setTitle(\"Copy image to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Image copied to clipboard\")",
+                    "target": "Notice(\"Image copied to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Failed to copy image!\")",
+                    "target": "Notice(\"Failed to copy image!\")"
+                },
+                {
+                    "source": "setTitle(\"Copy image link\")",
+                    "target": "setTitle(\"Copy image link\")"
+                },
+                {
+                    "source": "setTitle(\"Copy markdown link\")",
+                    "target": "setTitle(\"Copy markdown link\")"
+                },
+                {
+                    "source": "setTitle(\"Open in external browser\")",
+                    "target": "setTitle(\"Open in external browser\")"
+                },
+                {
+                    "source": "setTitle(\"Clear image link\")",
+                    "target": "setTitle(\"Clear image link\")"
+                },
+                {
+                    "source": "log(\"AttachFlow plugin loaded...\")",
+                    "target": "log(\"AttachFlow plugin loaded...\")"
+                },
+                {
+                    "source": "setTitle(\"Delete file and its attachments\")",
+                    "target": "setTitle(\"Delete file and its attachments\")"
+                },
+                {
+                    "source": "log(\"AttachFlow plugin unloaded...\")",
+                    "target": "log(\"AttachFlow plugin unloaded...\")"
+                },
+                {
+                    "source": "Notice(\"Find multiple same image-link in line, please zoom manually!\")",
+                    "target": "Notice(\"Find multiple same image-link in line, please zoom manually!\")"
+                },
+                {
+                    "source": "Notice(`Fail to find current image-link in ${mode}, please zoom manually!`)",
+                    "target": "Notice(`Fail to find current image-link in ${mode}, please zoom manually!`)"
+                },
+                {
+                    "source": "Notice(`Find multiple same image-link in ${mode}, please zoom manually!`)",
+                    "target": "Notice(`Find multiple same image-link in ${mode}, please zoom manually!`)"
+                },
+                {
+                    "source": "link:\", matched_link);\n      print(\"",
+                    "target": "link:\", matched_link);\n      print(\""
+                },
+                {
+                    "source": "name:\").addText((text) => text.setValue(this.name).onChange((value) => {\n      this.result = `${this.folder}${value}.${this.filetype}`;\n    }));\n    setTimeout(() => {\n      let inputBox = setting.settingEl.querySelector('input[type=\"",
+                    "target": "name:\").addText((text) => text.setValue(this.name).onChange((value) => {\n      this.result = `${this.folder}${value}.${this.filetype}`;\n    }));\n    setTimeout(() => {\n      let inputBox = setting.settingEl.querySelector('input[type=\""
+                },
+                {
+                    "source": "innerText = `${this.folder}`",
+                    "target": "innerText = `${this.folder}`"
+                },
+                {
+                    "source": "innerText = `.${this.filetype}`",
+                    "target": "innerText = `.${this.filetype}`"
+                },
+                {
+                    "source": "name: \"clear all attachments in current file\"",
+                    "target": "name: \"clear all attachments in current file\""
+                },
+                {
+                    "source": "text: \"Delete the file and its all attachments - logs \"",
+                    "target": "text: \"Delete the file and its all attachments - logs \""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                },
+                {
+                    "source": "text: \"Confirm\"",
+                    "target": "text: \"Confirm\""
+                },
+                {
+                    "source": "text = \"\"",
+                    "target": "text = \"\""
+                }
+            ]
+        }
+    }
+}

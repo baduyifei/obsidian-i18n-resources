@@ -1,0 +1,176 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mousewheel-image-zoom",
+        "version": "1.0.0",
+        "title": "Mousewheel Image zoom",
+        "description": "Mousewheel Image zoom Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Mousewheel Image Zoom",
+                    "target": "鼠标滚轮图片缩放"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Open Settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Right Shift",
+                    "target": "右Shift"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Right Alt",
+                    "target": "右Alt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Right Ctrl",
+                    "target": "右Ctrl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Shift",
+                    "target": "Shift"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Alt",
+                    "target": "Alt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ctrl",
+                    "target": "Ctrl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loaded: Mousewheel image zoom",
+                    "target": "已加载：鼠标滚轮图像缩放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key that needs to be pressed down for mousewheel zoom to work.",
+                    "target": "需要按下的键以使鼠标滚轮缩放工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Step value by which the size of the image should be increased/decreased",
+                    "target": "调整图像大小的步长值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Initial image size if no size was defined beforehand",
+                    "target": "如果之前没有定义大小，则为初始图像大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, all nodes on the Obsidian canvas can also be resized using the Modifier key",
+                    "target": "启用时，使用修饰键也可以调整Obsidian画布上的所有节点大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger Key",
+                    "target": "触发键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Step size",
+                    "target": "步长大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initial Size",
+                    "target": "初始大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Resize in canvas",
+                    "target": "在画布中调整大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for mousewheel zoom",
+                    "target": "鼠标滚轮缩放的设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"Loaded: Mousewheel image zoom\")",
+                    "target": "log(\"Loaded: Mousewheel image zoom\")"
+                },
+                {
+                    "source": "setName('Trigger Key')",
+                    "target": "setName('Trigger Key')"
+                },
+                {
+                    "source": "setDesc('Key that needs to be pressed down for mousewheel zoom to work.')",
+                    "target": "setDesc('Key that needs to be pressed down for mousewheel zoom to work.')"
+                },
+                {
+                    "source": "setName('Step size')",
+                    "target": "setName('Step size')"
+                },
+                {
+                    "source": "setDesc('Step value by which the size of the image should be increased/decreased')",
+                    "target": "setDesc('Step value by which the size of the image should be increased/decreased')"
+                },
+                {
+                    "source": "setName('Initial Size')",
+                    "target": "setName('Initial Size')"
+                },
+                {
+                    "source": "setDesc('Initial image size if no size was defined beforehand')",
+                    "target": "setDesc('Initial image size if no size was defined beforehand')"
+                },
+                {
+                    "source": "setName('Resize in canvas')",
+                    "target": "setName('Resize in canvas')"
+                },
+                {
+                    "source": "setDesc('When enabled, all nodes on the Obsidian canvas can also be resized using the Modifier key')",
+                    "target": "setDesc('When enabled, all nodes on the Obsidian canvas can also be resized using the Modifier key')"
+                },
+                {
+                    "source": "textContent = \"Mousewheel Image Zoom\"",
+                    "target": "textContent = \"Mousewheel Image Zoom\""
+                },
+                {
+                    "source": "textContent = \"Open Settings\"",
+                    "target": "textContent = \"Open Settings\""
+                },
+                {
+                    "source": "text: 'Settings for mousewheel zoom'",
+                    "target": "text: 'Settings for mousewheel zoom'"
+                }
+            ]
+        }
+    }
+}

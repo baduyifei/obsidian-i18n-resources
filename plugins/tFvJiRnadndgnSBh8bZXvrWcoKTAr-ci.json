@@ -1,0 +1,98 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ascii-tree-generator",
+        "version": "1.0.0",
+        "title": "ASCII Tree Generator",
+        "description": "ASCII Tree Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets how many dash characters follow each branch symbol. 2 gives the classic ├── style.",
+                    "target": "Sets how many dash characters follow each branch symbol. 2 gives the classic ├── style."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically add a trailing slash to any item that has children in the tree.",
+                    "target": "Automatically add a trailing slash to any item that has children in the tree."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connector dashes",
+                    "target": "Connector dashes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-append / to folders",
+                    "target": "Auto-append / to folders"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert selection to tree code block",
+                    "target": "Convert selection to tree code block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert tree block back to text",
+                    "target": "Convert tree block back to text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle tree block",
+                    "target": "Toggle tree block"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Connector dashes\")",
+                    "target": "setName(\"Connector dashes\")"
+                },
+                {
+                    "source": "setName(\"Auto-append / to folders\")",
+                    "target": "setName(\"Auto-append / to folders\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically add a trailing slash to any item that has children in the tree.\")",
+                    "target": "setDesc(\"Automatically add a trailing slash to any item that has children in the tree.\")"
+                },
+                {
+                    "source": "name:\"Convert selection to tree code block\"",
+                    "target": "name:\"Convert selection to tree code block\""
+                },
+                {
+                    "source": "name:\"Convert tree block back to text\"",
+                    "target": "name:\"Convert tree block back to text\""
+                },
+                {
+                    "source": "name:\"Toggle tree block\"",
+                    "target": "name:\"Toggle tree block\""
+                }
+            ]
+        }
+    }
+}

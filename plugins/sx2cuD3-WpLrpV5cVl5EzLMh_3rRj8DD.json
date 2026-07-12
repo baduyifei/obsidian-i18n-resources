@@ -1,0 +1,1466 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "consistent-attachments-and-links",
+        "version": "1.0.0",
+        "title": "Consistent Attachments and Links",
+        "description": "Consistent Attachments and Links Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.33.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Using 'Consistent Attachments and Links' plugin without proper configuration might lead to inconvenient attachment rearrangements or even data loss in your vault.",
+                    "target": "使用 'Consistent Attachments and Links' 插件而没有正确配置可能会导致附件重新排列不便或甚至在您的库中丢失数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "It is ",
+                    "target": "It is "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " recommended to backup your vault before using the plugin.",
+                    "target": " 建议在使用插件之前备份您的库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Some of your plugin settings has been changed to their safe values.",
+                    "target": "您的一些插件设置已更改为它们的安全值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " about how to use the plugin.",
+                    "target": " 关于如何使用插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "This warning will not appear again.",
+                    "target": "此警告将不再出现。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Consistent Attachments and Links",
+                    "target": " Consistent Attachments and Links"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "When the folder becomes empty, ",
+                    "target": "When the folder becomes empty, "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - will keep the empty folder, ",
+                    "target": " - 将保留空文件夹，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - will delete the empty folder, ",
+                    "target": " - 将删除空文件夹，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - will delete the empty folder and its empty parent folders.",
+                    "target": " - 将删除空文件夹及其空的父文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Include notes from the following paths",
+                    "target": "包含以下路径的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each path on a new line",
+                    "target": "每个路径插入到新行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You can use path string or ",
+                    "target": "您可以使用路径字符串或"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, all notes are included",
+                    "target": "如果设置为空，则包含所有笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Exclude notes from the following paths",
+                    "target": "排除以下路径的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, no notes are excluded",
+                    "target": "如果设置为空，则不排除任何笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Exclude attachments from the following paths when ",
+                    "target": "排除以下路径的附件当"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " command is executed.",
+                    "target": " 命令执行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, no paths are excluded from attachment collecting.",
+                    "target": "如果设置为空，则没有路径被排除在附件收集之外。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Treat files with these extensions as attachments.",
+                    "target": "将这些扩展名的文件视为附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "By default, ",
+                    "target": "默认情况下，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " and ",
+                    "target": "和"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " linked files are not treated as attachments and are not moved with the note.",
+                    "target": "链接的文件不被视为附件，也不会随笔记一起移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You can add custom extensions, e.g. ",
+                    "target": "你可以添加自定义扩展名，例如，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": "，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", to override this behavior.",
+                    "target": "以覆盖这种行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each extension on a new line.",
+                    "target": "每个扩展名插入在新的一行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - ",
+                    "target": " - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You enabled ",
+                    "target": "您启用了 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " setting. Without proper configuration it might lead to inconvenient attachment rearrangements or even data loss in your vault.",
+                    "target": " 设置。如果没有正确配置，可能会导致附件重新排列不便，甚至导致您的保险库中的数据丢失。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "progress",
+                    "target": "progress"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "No Intl support, please use an Intl polyfill!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Only canvas changes are supported for canvas files",
+                    "target": "Only canvas changes are supported for canvas files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node not found",
+                    "target": "Node not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node text is not a string",
+                    "target": "Node text is not a string"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported file change",
+                    "target": "Unsupported file change"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing item",
+                    "target": "Error processing item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "initialized",
+                    "target": "initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically move attachments when a note is relocated. This includes attachments located in the same folder or any of its subfolders.",
+                    "target": "当笔记被移动时自动移动附件。这包括位于同一文件夹或其任何子文件夹中的附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically remove attachments that are no longer referenced in other notes when the note is deleted.",
+                    "target": "当笔记被删除时，自动移除其他笔记不再引用的附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically update links to attachments and other notes when moving notes or attachments.",
+                    "target": "移动笔记或附件时，自动更新附件和其他笔记的链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically delete attachments when moving a note if a file with the same name exists in the destination folder. If disabled, the file will be renamed and moved.",
+                    "target": "移动笔记时自动删除附件，如果目标文件夹中已存在同名文件。如果禁用此选项，文件将被重命名并移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When a note is renamed, its linked references are automatically updated. If this option is enabled, the text of backlinks to this note will also be modified.",
+                    "target": "重命名笔记时，其链接引用将自动更新。如果启用此选项，指向此笔记的反向链接文本也将被修改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the name of the file for the consistency report.",
+                    "target": "指定一致性报告的文件名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically collect attachments when the note is edited.",
+                    "target": "编辑笔记时自动收集附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update links",
+                    "target": "更新链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Empty folder behavior",
+                    "target": "空文件夹行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update backlink text on note rename",
+                    "target": "笔记重命名时更新反向链接文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Consistency report filename",
+                    "target": "一致性报告文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include paths",
+                    "target": "包含路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude paths",
+                    "target": "排除路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude paths from attachment collecting",
+                    "target": "排除附件收集路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Treat as attachment extensions",
+                    "target": "视为附件的扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`.",
+                    "target": "实例方法 `debug.destroy()` 已被弃用，不再执行任何操作。它将在 `debug` 的下一个主版本中被移除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "访问一个对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format.",
+                    "target": "似乎加载的翻译是平面 JSON 格式，而不是嵌套格式。要么在初始化时设置 keySeparator: false，要么确保你的翻译以嵌套格式发布。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的设置中有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。在访问它之前等待回调或 Promise 解决！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "nesting options string contains interpolated variables with escapeValue: false — if any of those values are attacker-controlled they can inject additional nesting options (e.g. redirect lng/ns). Sanitise untrusted input before passing it to t(), or keep escapeValue: true.",
+                    "target": "嵌套选项字符串包含带有 escapeValue: false 的插值变量 - 如果这些值中的任何一个是攻击者控制的，它们可以注入额外的嵌套选项（例如重定向 lng/ns）。在传递给 t() 之前对不受信任的输入进行清理，或保持 escapeValue: true。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "通过 i18next.use 未添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: 未使用语言检测器且未定义lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next已经初始化。你应该只调用一次init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18n.languages were undefined or empty",
+                    "target": "hasLoadedNamespace: i18n.languages未定义或为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[remark-wiki-link] Warning: please upgrade to remark 13 to use this plugin",
+                    "target": "[remark-wiki-link] 警告：请升级到remark 13以使用此插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "I18N was not initialized, initializing default obsidian-dev-utils translations",
+                    "target": "I18N未初始化，正在初始化默认的obsidian-dev-utils翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "markdown-rendered code",
+                    "target": "markdown-rendered code"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "all files are renamed.",
+                    "target": "所有文件已重命名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "their names are preserved.",
+                    "target": "它们的名字被保留。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "only pasted images are renamed. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.",
+                    "target": "仅粘贴的图片会被重命名。仅适用于直接从剪贴板粘贴PNG图片内容。通常用于粘贴屏幕截图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "cancel the attachment collecting.",
+                    "target": "取消附件收集。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "copy the attachment to the new location.",
+                    "target": "将附件复制到新位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "move the attachment to the new location.",
+                    "target": "将附件移动到新位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "prompt the user to choose the action.",
+                    "target": "提示用户选择操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "skip the attachment and proceed to the next one.",
+                    "target": "跳过此附件并继续下一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "will delete the empty attachment folder.",
+                    "target": "将删除空的附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "will delete the empty attachment folder and its empty parent folders.",
+                    "target": "将删除空的附件文件夹及其空的父文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "will keep the empty attachment folder.",
+                    "target": "将保留空的附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "copy the attachment to the new location for all notes.",
+                    "target": "将所有笔记的附件复制到新位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The smaller the quality, the greater the compression ratio.",
+                    "target": "质量越小，压缩比越大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to convert pasted images to JPEG. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.",
+                    "target": "是否将粘贴的图片转换为JPEG格式。仅在直接从剪贴板粘贴PNG图片内容时适用。通常用于粘贴屏幕截图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If enabled, when the note is deleted, its orphan attachments are deleted as well.",
+                    "target": "如果启用，当笔记被删除时，其孤立的附件也会被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to handle renames.",
+                    "target": "是否处理重命名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to rename attachment folders when a note is renamed or moved.",
+                    "target": "当笔记被重命名或移动时，是否重命名附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Collecting attachment used by multiple notes",
+                    "target": "收集多个笔记使用的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Debug mode: intentional placeholder error. See https://github.com/mnaoumov/obsidian-dev-utils/blob/main/docs/debugging.md.",
+                    "target": "调试模式：故意放置的错误占位符。详见 https://github.com/mnaoumov/obsidian-dev-utils/blob/main/docs/debugging.md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "retryWithTimeout failed",
+                    "target": "retryWithTimeout 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Run with timeout failed",
+                    "target": "Run with timeout 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "loop failed",
+                    "target": "循环失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Collecting attachments {{iterationStr}} - '{{noteFilePath}}'.",
+                    "target": "收集附件 {{iterationStr}} - '{{noteFilePath}}'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Moving attachment to proper folder {{iterationStr}} - '{{attachmentFilePath}}'.",
+                    "target": "正在将附件移动到正确的文件夹 {{iterationStr}} - '{{attachmentFilePath}}'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to reset the custom tokens to the sample custom tokens? Your changes will be lost.",
+                    "target": "您确定要将自定义令牌重置为示例自定义令牌吗？您的更改将会丢失。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "attention",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "autolink",
+                    "target": "自动链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "definition",
+                    "target": "定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Check vault consistency",
+                    "target": "检查保险箱一致性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachments in entire vault",
+                    "target": "在整个保险箱中收集附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachments in current folder",
+                    "target": "在当前文件夹中收集附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachments in current note",
+                    "target": "在当前笔记中收集附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all embed paths to relative",
+                    "target": "将所有嵌入路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all embed paths to relative in current note",
+                    "target": "将当前笔记中的所有嵌入路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all link paths to relative",
+                    "target": "将所有链接路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all link paths to relative in current note",
+                    "target": "将当前笔记中的所有链接路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete empty folders",
+                    "target": "删除空文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move attachment to proper folder",
+                    "target": "将附件移动到正确的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reorganize vault",
+                    "target": "重组资料库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wiki embeds with Markdown embeds",
+                    "target": "将所有Wiki嵌入替换为Markdown嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wiki embeds with Markdown embeds in current note",
+                    "target": "将当前笔记中的所有Wiki嵌入替换为Markdown嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wikilinks with markdown links",
+                    "target": "将所有Wiki链接替换为Markdown链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wikilinks with markdown links in current note",
+                    "target": "在当前笔记中将所有wiki链接替换为markdown链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attachment rename mode",
+                    "target": "附件重命名模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachment used by multiple notes mode",
+                    "target": "多笔记使用的附件收集模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collected attachment file name",
+                    "target": "收集的附件文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom tokens",
+                    "target": "自定义标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default image size",
+                    "target": "默认图片大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Duplicate name separator",
+                    "target": "重复名称分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Empty attachment folder behavior",
+                    "target": "空附件文件夹行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude paths",
+                    "target": "排除路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude paths from attachment collecting",
+                    "target": "从附件收集中排除路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generated attachment file name",
+                    "target": "生成的附件文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Include paths",
+                    "target": "包含路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JPEG Quality",
+                    "target": "JPEG质量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Location for new attachments",
+                    "target": "新附件的位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown URL format",
+                    "target": "Markdown URL格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move attachment to proper folder used by multiple notes mode",
+                    "target": "将附件移动到多笔记模式使用的合适文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renamed attachment file name",
+                    "target": "重命名后的附件文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should convert pasted images to JPEG",
+                    "target": "是否将粘贴的图片转换为JPEG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should delete orphan attachments",
+                    "target": "是否删除孤立的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should handle renames",
+                    "target": "是否处理重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename attachment files",
+                    "target": "应重命名附件文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename attachment folders",
+                    "target": "应重命名附件文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename collected attachments",
+                    "target": "应重命名收集的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Special characters",
+                    "target": "特殊字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Special characters replacement",
+                    "target": "特殊字符替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timeout in seconds",
+                    "target": "超时（秒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Treat as attachment extensions",
+                    "target": "视为附件的扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Keep",
+                    "target": "保留"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Delete with empty parents",
+                    "target": "删除空父级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Read more",
+                    "target": "阅读更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Collecting attachments...",
+                    "target": "正在收集附件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Moving attachment to proper folder...",
+                    "target": "正在将附件移动到正确的文件夹..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reset to sample custom tokens",
+                    "target": "重置为样本自定义令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Preview attachment file '{{fullFileName}}'",
+                    "target": "预览附件文件 '{{fullFileName}}'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Provide a value for the prompt token",
+                    "target": "为提示令牌提供一个值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "复选框"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"No Intl support, please use an Intl polyfill!\")",
+                    "target": "error(\"No Intl support, please use an Intl polyfill!\")"
+                },
+                {
+                    "source": "log(\"languageChanged\",c)):this.isLanguageChangingTo=void 0,r.resolve((...u)=>this.t(...u)),n&&n(l,(...u)=>this.t(...u))},\"done\")",
+                    "target": "log(\"languageChanged\",c)):this.isLanguageChangingTo=void 0,r.resolve((...u)=>this.t(...u)),n&&n(l,(...u)=>this.t(...u))},\"done\")"
+                },
+                {
+                    "source": "appendText(\": \")",
+                    "target": "appendText(\": \")"
+                },
+                {
+                    "source": "appendText(\" \")",
+                    "target": "appendText(\" \")"
+                },
+                {
+                    "source": "error(\"Only canvas changes are supported for canvas files\",{change:u,path:o});continue}let p=l.nodes[u.reference.nodeIndex];if(!p)return console.error(\"Node not found\",{nodeIndex:u.reference.nodeIndex,path:o}),null;if(_C(u)){if(p.file!==u.oldContent)return Y(\"FileChange:applyCanvasChanges\")",
+                    "target": "error(\"Only canvas changes are supported for canvas files\",{change:u,path:o});continue}let p=l.nodes[u.reference.nodeIndex];if(!p)return console.error(\"Node not found\",{nodeIndex:u.reference.nodeIndex,path:o}),null;if(_C(u)){if(p.file!==u.oldContent)return Y(\"FileChange:applyCanvasChanges\")"
+                },
+                {
+                    "source": "error(\"Node not found\",{nodeIndex:u,path:o}),null;if(typeof d.text!=\"string\")",
+                    "target": "error(\"Node not found\",{nodeIndex:u,path:o}),null;if(typeof d.text!=\"string\")"
+                },
+                {
+                    "source": "error(\"Node text is not a string\",{nodeIndex:u,path:o}),null;let f=p.map(h=>Dn(h.reference.originalReference,h.newContent));d.text=await Xi({abortSignal:e,changesProvider:f,content:d.text,path:`${o}.node${String(u)}.VIRTUAL_FILE.md`,shouldRetryOnInvalidChanges:s})}return JSON.stringify(l,null,\"\t\")",
+                    "target": "error(\"Node text is not a string\",{nodeIndex:u,path:o}),null;let f=p.map(h=>Dn(h.reference.originalReference,h.newContent));d.text=await Xi({abortSignal:e,changesProvider:f,content:d.text,path:`${o}.node${String(u)}.VIRTUAL_FILE.md`,shouldRetryOnInvalidChanges:s})}return JSON.stringify(l,null,\"\t\")"
+                },
+                {
+                    "source": "error(\"Unsupported file change\",u);continue}else yw(u,a)&&(u.newContent=u.newContent.replaceAll(id,YC)),s.push(u)}return s}i(hw,\"getFileChanges\")",
+                    "target": "error(\"Unsupported file change\",u);continue}else yw(u,a)&&(u.newContent=u.newContent.replaceAll(id,YC)),s.push(u)}return s}i(hw,\"getFileChanges\")"
+                },
+                {
+                    "source": "error(`Cancelling collecting attachments, as attachment ${F.oldAttachmentPath} is referenced by multiple notes.\n${k}`)",
+                    "target": "error(`Cancelling collecting attachments, as attachment ${F.oldAttachmentPath} is referenced by multiple notes.\n${k}`)"
+                },
+                {
+                    "source": "Notice(\"No embeds found that need to be converted\")",
+                    "target": "Notice(\"No embeds found that need to be converted\")"
+                },
+                {
+                    "source": "Notice(`Converted ${String(e)} embed${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)",
+                    "target": "Notice(`Converted ${String(e)} embed${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)"
+                },
+                {
+                    "source": "Notice(\"No links found that need to be converted\")",
+                    "target": "Notice(\"No links found that need to be converted\")"
+                },
+                {
+                    "source": "Notice(`Converted ${String(n)} link${n>1?\"s\":\"\"} from ${String(r)} note${r>1?\"s\":\"\"}`)",
+                    "target": "Notice(`Converted ${String(n)} link${n>1?\"s\":\"\"} from ${String(r)} note${r>1?\"s\":\"\"}`)"
+                },
+                {
+                    "source": "Notice(\"Reorganization of the vault completed\")",
+                    "target": "Notice(\"Reorganization of the vault completed\")"
+                },
+                {
+                    "source": "Notice(\"No wiki embeds found that need to be replaced\")",
+                    "target": "Notice(\"No wiki embeds found that need to be replaced\")"
+                },
+                {
+                    "source": "Notice(`Replaced ${String(e)} wiki embed${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)",
+                    "target": "Notice(`Replaced ${String(e)} wiki embed${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)"
+                },
+                {
+                    "source": "Notice(\"No wiki links found that need to be replaced\")",
+                    "target": "Notice(\"No wiki links found that need to be replaced\")"
+                },
+                {
+                    "source": "Notice(`Replaced ${String(e)} wikilink${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)",
+                    "target": "Notice(`Replaced ${String(e)} wikilink${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)"
+                },
+                {
+                    "source": "appendText(\"Using 'Consistent Attachments and Links' plugin without proper configuration might lead to inconvenient attachment rearrangements or even data loss in your vault.\")",
+                    "target": "appendText(\"Using 'Consistent Attachments and Links' plugin without proper configuration might lead to inconvenient attachment rearrangements or even data loss in your vault.\")"
+                },
+                {
+                    "source": "appendText(\"It is \")",
+                    "target": "appendText(\"It is \")"
+                },
+                {
+                    "source": "appendText(\" recommended to backup your vault before using the plugin.\")",
+                    "target": "appendText(\" recommended to backup your vault before using the plugin.\")"
+                },
+                {
+                    "source": "appendText(\"Some of your plugin settings has been changed to their safe values.\")",
+                    "target": "appendText(\"Some of your plugin settings has been changed to their safe values.\")"
+                },
+                {
+                    "source": "appendText(\" about how to use the plugin.\")",
+                    "target": "appendText(\" about how to use the plugin.\")"
+                },
+                {
+                    "source": "appendText(\"This warning will not appear again.\")",
+                    "target": "appendText(\"This warning will not appear again.\")"
+                },
+                {
+                    "source": "appendText(\" Consistent Attachments and Links\")",
+                    "target": "appendText(\" Consistent Attachments and Links\")"
+                },
+                {
+                    "source": "error(`Invalid settings from data.json. Expected Object, got: ${typeof n}`)",
+                    "target": "error(`Invalid settings from data.json. Expected Object, got: ${typeof n}`)"
+                },
+                {
+                    "source": "setDesc(\"Automatically move attachments when a note is relocated. This includes attachments located in the same folder or any of its subfolders.\")",
+                    "target": "setDesc(\"Automatically move attachments when a note is relocated. This includes attachments located in the same folder or any of its subfolders.\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically remove attachments that are no longer referenced in other notes when the note is deleted.\")",
+                    "target": "setDesc(\"Automatically remove attachments that are no longer referenced in other notes when the note is deleted.\")"
+                },
+                {
+                    "source": "setName(\"Update links\")",
+                    "target": "setName(\"Update links\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically update links to attachments and other notes when moving notes or attachments.\")",
+                    "target": "setDesc(\"Automatically update links to attachments and other notes when moving notes or attachments.\")"
+                },
+                {
+                    "source": "setName(\"Empty folder behavior\")",
+                    "target": "setName(\"Empty folder behavior\")"
+                },
+                {
+                    "source": "appendText(\"When the folder becomes empty, \")",
+                    "target": "appendText(\"When the folder becomes empty, \")"
+                },
+                {
+                    "source": "appendText(\" - will keep the empty folder, \")",
+                    "target": "appendText(\" - will keep the empty folder, \")"
+                },
+                {
+                    "source": "appendText(\" - will delete the empty folder, \")",
+                    "target": "appendText(\" - will delete the empty folder, \")"
+                },
+                {
+                    "source": "appendText(\" - will delete the empty folder and its empty parent folders.\")",
+                    "target": "appendText(\" - will delete the empty folder and its empty parent folders.\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically delete attachments when moving a note if a file with the same name exists in the destination folder. If disabled, the file will be renamed and moved.\")",
+                    "target": "setDesc(\"Automatically delete attachments when moving a note if a file with the same name exists in the destination folder. If disabled, the file will be renamed and moved.\")"
+                },
+                {
+                    "source": "setName(\"Update backlink text on note rename\")",
+                    "target": "setName(\"Update backlink text on note rename\")"
+                },
+                {
+                    "source": "setDesc(\"When a note is renamed, its linked references are automatically updated. If this option is enabled, the text of backlinks to this note will also be modified.\")",
+                    "target": "setDesc(\"When a note is renamed, its linked references are automatically updated. If this option is enabled, the text of backlinks to this note will also be modified.\")"
+                },
+                {
+                    "source": "setName(\"Consistency report filename\")",
+                    "target": "setName(\"Consistency report filename\")"
+                },
+                {
+                    "source": "setDesc(\"Specify the name of the file for the consistency report.\")",
+                    "target": "setDesc(\"Specify the name of the file for the consistency report.\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically collect attachments when the note is edited.\")",
+                    "target": "setDesc(\"Automatically collect attachments when the note is edited.\")"
+                },
+                {
+                    "source": "setName(\"Include paths\")",
+                    "target": "setName(\"Include paths\")"
+                },
+                {
+                    "source": "appendText(\"Include notes from the following paths\")",
+                    "target": "appendText(\"Include notes from the following paths\")"
+                },
+                {
+                    "source": "appendText(\"Insert each path on a new line\")",
+                    "target": "appendText(\"Insert each path on a new line\")"
+                },
+                {
+                    "source": "appendText(\"You can use path string or \")",
+                    "target": "appendText(\"You can use path string or \")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, all notes are included\")",
+                    "target": "appendText(\"If the setting is empty, all notes are included\")"
+                },
+                {
+                    "source": "setName(\"Exclude paths\")",
+                    "target": "setName(\"Exclude paths\")"
+                },
+                {
+                    "source": "appendText(\"Exclude notes from the following paths\")",
+                    "target": "appendText(\"Exclude notes from the following paths\")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, no notes are excluded\")",
+                    "target": "appendText(\"If the setting is empty, no notes are excluded\")"
+                },
+                {
+                    "source": "setName(\"Exclude paths from attachment collecting\")",
+                    "target": "setName(\"Exclude paths from attachment collecting\")"
+                },
+                {
+                    "source": "appendText(\"Exclude attachments from the following paths when \")",
+                    "target": "appendText(\"Exclude attachments from the following paths when \")"
+                },
+                {
+                    "source": "appendText(\" command is executed.\")",
+                    "target": "appendText(\" command is executed.\")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, no paths are excluded from attachment collecting.\")",
+                    "target": "appendText(\"If the setting is empty, no paths are excluded from attachment collecting.\")"
+                },
+                {
+                    "source": "setName(\"Treat as attachment extensions\")",
+                    "target": "setName(\"Treat as attachment extensions\")"
+                },
+                {
+                    "source": "appendText(\"Treat files with these extensions as attachments.\")",
+                    "target": "appendText(\"Treat files with these extensions as attachments.\")"
+                },
+                {
+                    "source": "appendText(\"By default, \")",
+                    "target": "appendText(\"By default, \")"
+                },
+                {
+                    "source": "appendText(\" and \")",
+                    "target": "appendText(\" and \")"
+                },
+                {
+                    "source": "appendText(\" linked files are not treated as attachments and are not moved with the note.\")",
+                    "target": "appendText(\" linked files are not treated as attachments and are not moved with the note.\")"
+                },
+                {
+                    "source": "appendText(\"You can add custom extensions, e.g. \")",
+                    "target": "appendText(\"You can add custom extensions, e.g. \")"
+                },
+                {
+                    "source": "appendText(\", \")",
+                    "target": "appendText(\", \")"
+                },
+                {
+                    "source": "appendText(\", to override this behavior.\")",
+                    "target": "appendText(\", to override this behavior.\")"
+                },
+                {
+                    "source": "appendText(\"Insert each extension on a new line.\")",
+                    "target": "appendText(\"Insert each extension on a new line.\")"
+                },
+                {
+                    "source": "appendText(\" - \")",
+                    "target": "appendText(\" - \")"
+                },
+                {
+                    "source": "appendText(\"You enabled \")",
+                    "target": "appendText(\"You enabled \")"
+                },
+                {
+                    "source": "appendText(\" setting. Without proper configuration it might lead to inconvenient attachment rearrangements or even data loss in your vault.\")",
+                    "target": "appendText(\" setting. Without proper configuration it might lead to inconvenient attachment rearrangements or even data loss in your vault.\")"
+                },
+                {
+                    "source": "name:\"Handle rename: {{oldPath}} -> {{newPath}}\"",
+                    "target": "name:\"Handle rename: {{oldPath}} -> {{newPath}}\""
+                },
+                {
+                    "source": "name:\"Check vault consistency\"",
+                    "target": "name:\"Check vault consistency\""
+                },
+                {
+                    "source": "name:\"Collect attachments in entire vault\"",
+                    "target": "name:\"Collect attachments in entire vault\""
+                },
+                {
+                    "source": "name:\"Collect attachments in current folder\"",
+                    "target": "name:\"Collect attachments in current folder\""
+                },
+                {
+                    "source": "name:\"Collect attachments in current note\"",
+                    "target": "name:\"Collect attachments in current note\""
+                },
+                {
+                    "source": "name:\"Convert all embed paths to relative\"",
+                    "target": "name:\"Convert all embed paths to relative\""
+                },
+                {
+                    "source": "name:\"Convert all embed paths to relative in current note\"",
+                    "target": "name:\"Convert all embed paths to relative in current note\""
+                },
+                {
+                    "source": "name:\"Convert all link paths to relative\"",
+                    "target": "name:\"Convert all link paths to relative\""
+                },
+                {
+                    "source": "name:\"Convert all link paths to relative in current note\"",
+                    "target": "name:\"Convert all link paths to relative in current note\""
+                },
+                {
+                    "source": "name:\"Delete empty folders\"",
+                    "target": "name:\"Delete empty folders\""
+                },
+                {
+                    "source": "name:\"Move attachment to proper folder\"",
+                    "target": "name:\"Move attachment to proper folder\""
+                },
+                {
+                    "source": "name:\"Reorganize vault\"",
+                    "target": "name:\"Reorganize vault\""
+                },
+                {
+                    "source": "name:\"Replace all wiki embeds with Markdown embeds\"",
+                    "target": "name:\"Replace all wiki embeds with Markdown embeds\""
+                },
+                {
+                    "source": "name:\"Replace all wiki embeds with Markdown embeds in current note\"",
+                    "target": "name:\"Replace all wiki embeds with Markdown embeds in current note\""
+                },
+                {
+                    "source": "name:\"Replace all wikilinks with markdown links\"",
+                    "target": "name:\"Replace all wikilinks with markdown links\""
+                },
+                {
+                    "source": "name:\"Replace all wikilinks with markdown links in current note\"",
+                    "target": "name:\"Replace all wikilinks with markdown links in current note\""
+                },
+                {
+                    "source": "page=\");if(l!==Kt)return!1;let c=await Et(this.app,a);return c?!!(0,zo.resolveSubpath)(c,o):!1}};var Wo=class extends Fr{static{i(this,\"",
+                    "target": "page=\");if(l!==Kt)return!1;let c=await Et(this.app,a);return c?!!(0,zo.resolveSubpath)(c,o):!1}};var Wo=class extends Fr{static{i(this,\""
+                },
+                {
+                    "source": "text:\"Read more\"",
+                    "target": "text:\"Read more\""
+                },
+                {
+                    "source": "description:\"all files are renamed.\"",
+                    "target": "description:\"all files are renamed.\""
+                },
+                {
+                    "source": "description:\"their names are preserved.\"",
+                    "target": "description:\"their names are preserved.\""
+                },
+                {
+                    "source": "description:\"only pasted images are renamed. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.\"",
+                    "target": "description:\"only pasted images are renamed. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.\""
+                },
+                {
+                    "source": "description:\"cancel the attachment collecting.\"",
+                    "target": "description:\"cancel the attachment collecting.\""
+                },
+                {
+                    "source": "description:\"copy the attachment to the new location.\"",
+                    "target": "description:\"copy the attachment to the new location.\""
+                },
+                {
+                    "source": "description:\"move the attachment to the new location.\"",
+                    "target": "description:\"move the attachment to the new location.\""
+                },
+                {
+                    "source": "description:\"prompt the user to choose the action.\"",
+                    "target": "description:\"prompt the user to choose the action.\""
+                },
+                {
+                    "source": "description:\"skip the attachment and proceed to the next one.\"",
+                    "target": "description:\"skip the attachment and proceed to the next one.\""
+                },
+                {
+                    "source": "description:\"will delete the empty attachment folder.\"",
+                    "target": "description:\"will delete the empty attachment folder.\""
+                },
+                {
+                    "source": "description:\"will delete the empty attachment folder and its empty parent folders.\"",
+                    "target": "description:\"will delete the empty attachment folder and its empty parent folders.\""
+                },
+                {
+                    "source": "description:\"will keep the empty attachment folder.\"",
+                    "target": "description:\"will keep the empty attachment folder.\""
+                },
+                {
+                    "source": "description:\"copy the attachment to the new location for all notes.\"",
+                    "target": "description:\"copy the attachment to the new location for all notes.\""
+                },
+                {
+                    "source": "name:\"Attachment rename mode\"",
+                    "target": "name:\"Attachment rename mode\""
+                },
+                {
+                    "source": "name:\"Collect attachment used by multiple notes mode\"",
+                    "target": "name:\"Collect attachment used by multiple notes mode\""
+                },
+                {
+                    "source": "name:\"Collected attachment file name\"",
+                    "target": "name:\"Collected attachment file name\""
+                },
+                {
+                    "source": "name:\"Custom tokens\"",
+                    "target": "name:\"Custom tokens\""
+                },
+                {
+                    "source": "name:\"Default image size\"",
+                    "target": "name:\"Default image size\""
+                },
+                {
+                    "source": "name:\"Duplicate name separator\"",
+                    "target": "name:\"Duplicate name separator\""
+                },
+                {
+                    "source": "name:\"Empty attachment folder behavior\"",
+                    "target": "name:\"Empty attachment folder behavior\""
+                },
+                {
+                    "source": "name:\"Exclude paths\"",
+                    "target": "name:\"Exclude paths\""
+                },
+                {
+                    "source": "name:\"Exclude paths from attachment collecting\"",
+                    "target": "name:\"Exclude paths from attachment collecting\""
+                },
+                {
+                    "source": "name:\"Generated attachment file name\"",
+                    "target": "name:\"Generated attachment file name\""
+                },
+                {
+                    "source": "name:\"Include paths\"",
+                    "target": "name:\"Include paths\""
+                },
+                {
+                    "source": "description:\"The smaller the quality, the greater the compression ratio.\"",
+                    "target": "description:\"The smaller the quality, the greater the compression ratio.\""
+                },
+                {
+                    "source": "name:\"JPEG Quality\"",
+                    "target": "name:\"JPEG Quality\""
+                },
+                {
+                    "source": "name:\"Location for new attachments\"",
+                    "target": "name:\"Location for new attachments\""
+                },
+                {
+                    "source": "name:\"Markdown URL format\"",
+                    "target": "name:\"Markdown URL format\""
+                },
+                {
+                    "source": "name:\"Move attachment to proper folder used by multiple notes mode\"",
+                    "target": "name:\"Move attachment to proper folder used by multiple notes mode\""
+                },
+                {
+                    "source": "name:\"Renamed attachment file name\"",
+                    "target": "name:\"Renamed attachment file name\""
+                },
+                {
+                    "source": "description:\"Whether to convert pasted images to JPEG. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.\"",
+                    "target": "description:\"Whether to convert pasted images to JPEG. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.\""
+                },
+                {
+                    "source": "name:\"Should convert pasted images to JPEG\"",
+                    "target": "name:\"Should convert pasted images to JPEG\""
+                },
+                {
+                    "source": "description:\"If enabled, when the note is deleted, its orphan attachments are deleted as well.\"",
+                    "target": "description:\"If enabled, when the note is deleted, its orphan attachments are deleted as well.\""
+                },
+                {
+                    "source": "name:\"Should delete orphan attachments\"",
+                    "target": "name:\"Should delete orphan attachments\""
+                },
+                {
+                    "source": "description:\"Whether to handle renames.\"",
+                    "target": "description:\"Whether to handle renames.\""
+                },
+                {
+                    "source": "name:\"Should handle renames\"",
+                    "target": "name:\"Should handle renames\""
+                },
+                {
+                    "source": "name:\"Should rename attachment files\"",
+                    "target": "name:\"Should rename attachment files\""
+                },
+                {
+                    "source": "description:\"Whether to rename attachment folders when a note is renamed or moved.\"",
+                    "target": "description:\"Whether to rename attachment folders when a note is renamed or moved.\""
+                },
+                {
+                    "source": "name:\"Should rename attachment folders\"",
+                    "target": "name:\"Should rename attachment folders\""
+                },
+                {
+                    "source": "name:\"Should rename collected attachments\"",
+                    "target": "name:\"Should rename collected attachments\""
+                },
+                {
+                    "source": "name:\"Special characters\"",
+                    "target": "name:\"Special characters\""
+                },
+                {
+                    "source": "name:\"Special characters replacement\"",
+                    "target": "name:\"Special characters replacement\""
+                },
+                {
+                    "source": "name:\"Timeout in seconds\"",
+                    "target": "name:\"Timeout in seconds\""
+                },
+                {
+                    "source": "name:\"Treat as attachment extensions\"",
+                    "target": "name:\"Treat as attachment extensions\""
+                }
+            ]
+        }
+    }
+}
