@@ -1216,301 +1216,301 @@
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Choose true or false.",
-                    "target": "Choose true or false."
+                    "target": "选择真或假。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Value to compare against.",
-                    "target": "Value to compare against."
+                    "target": "要比较的值。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Vault-relative path to the JavaScript file.",
-                    "target": "Vault-relative path to the JavaScript file."
+                    "target": "相对于Vault的JavaScript文件路径。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Optional export or member to call (use :: to access nested members).",
-                    "target": "Optional export or member to call (use :: to access nested members)."
+                    "target": "可选的导出或成员来调用（使用 :: 访问嵌套成员）。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Execute this macro when Obsidian starts",
-                    "target": "Execute this macro when Obsidian starts"
+                    "target": "在Obsidian启动时执行此宏"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Shown in the choice picker search box when this multi choice opens. Leave blank to use the multi name.",
-                    "target": "Shown in the choice picker search box when this multi choice opens. Leave blank to use the multi name."
+                    "target": "当这个多项选择打开时，在选项选择搜索框中显示。留空则使用多项名称。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Add will append new models. Replace will overwrite existing models with the selected list.",
-                    "target": "Add will append new models. Replace will overwrite existing models with the selected list."
+                    "target": "添加将追加新模型。替换将用选定列表覆盖现有模型。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Select a secret from SecretStorage",
-                    "target": "Select a secret from SecretStorage"
+                    "target": "从SecretStorage中选择一个秘密"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Create any custom endpoint (OpenAI-compatible or otherwise)",
-                    "target": "Create any custom endpoint (OpenAI-compatible or otherwise)"
+                    "target": "创建任何自定义端点（与OpenAI兼容或其他）"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Providers for the AI Assistant",
-                    "target": "Providers for the AI Assistant"
+                    "target": "AI助手的提供者"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The name of the provider",
-                    "target": "The name of the provider"
+                    "target": "提供者的名称"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The endpoint for the AI Assistant",
-                    "target": "The endpoint for the AI Assistant"
+                    "target": "AI助手的端点"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Choose where QuickAdd looks when browsing or syncing models for this provider.",
-                    "target": "Choose where QuickAdd looks when browsing or syncing models for this provider."
+                    "target": "选择QuickAdd在浏览或同步此提供者的模型时查看的位置。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The providers for the AI Assistant",
-                    "target": "The providers for the AI Assistant"
+                    "target": "AI助手的提供者"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The default model for the AI Assistant",
-                    "target": "The default model for the AI Assistant"
+                    "target": "AI助手的默认模型"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Path to your folder with prompt templates",
-                    "target": "Path to your folder with prompt templates"
+                    "target": "包含提示模板的文件夹路径"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Show status messages from the AI Assistant",
-                    "target": "Show status messages from the AI Assistant"
+                    "target": "显示AI助手的状态消息"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The default system prompt for the AI Assistant",
-                    "target": "The default system prompt for the AI Assistant"
+                    "target": "AI助手的默认系统提示"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Git information for developers.",
-                    "target": "Git information for developers."
+                    "target": "开发者的Git信息。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Bundle or import QuickAdd automations as reusable packages.",
-                    "target": "Bundle or import QuickAdd automations as reusable packages."
+                    "target": "将QuickAdd自动化捆绑或导入为可重用的包。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Display release notes when a new version is installed. This includes new features, demo videos, and bug fixes.",
-                    "target": "Display release notes when a new version is installed. This includes new features, demo videos, and bug fixes."
+                    "target": "当安装新版本时显示发布说明。这包括新功能、演示视频和错误修复。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Display a notification when content is captured successfully to confirm the operation completed.",
-                    "target": "Display a notification when content is captured successfully to confirm the operation completed."
+                    "target": "当内容成功捕获时显示通知，以确认操作已完成。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Display a notification when an input prompt is cancelled without submitting. Disable this to avoid extra notices when dismissing prompts.",
-                    "target": "Display a notification when an input prompt is cancelled without submitting. Disable this to avoid extra notices when dismissing prompts."
+                    "target": "当输入提示被取消而未提交时显示通知。禁用此功能可以避免在关闭提示时出现额外的通知。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "When enabled, template variables in front matter will be formatted as proper Obsidian property types. Arrays become List properties, numbers become Number properties, booleans become Checkbox properties, etc. This is a beta feature that may have edge cases.",
-                    "target": "When enabled, template variables in front matter will be formatted as proper Obsidian property types. Arrays become List properties, numbers become Number properties, booleans become Checkbox properties, etc. This is a beta feature that may have edge cases."
+                    "target": "启用后，front matter中的模板变量将被格式化为适当的Obsidian属性类型。数组变为List属性，数字变为Number属性，布尔值变为Checkbox属性等。这是一个测试功能，可能存在边缘情况。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Use multi-line input prompt instead of single-line input prompt",
-                    "target": "Use multi-line input prompt instead of single-line input prompt"
+                    "target": "使用多行输入提示代替单行输入提示。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Keep drafts when closing input prompts so they can be restored on reopen. Drafts are stored only for this session.",
-                    "target": "Keep drafts when closing input prompts so they can be restored on reopen. Drafts are stored only for this session."
+                    "target": "在关闭输入提示时保留草稿，以便在重新打开时可以恢复。草稿仅存储在此会话中。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "When enabled, Capture uses the current editor selection as {{VALUE}} and may skip the prompt. When disabled, Capture always prompts for {{VALUE}}.",
-                    "target": "When enabled, Capture uses the current editor selection as {{VALUE}} and may skip the prompt. When disabled, Capture always prompts for {{VALUE}}."
+                    "target": "启用时，Capture使用当前编辑器选择作为{{VALUE}}，可能会跳过提示。禁用时，Capture始终提示{{VALUE}}。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Path to the folder where templates are stored. Used to suggest template files when configuring QuickAdd.",
-                    "target": "Path to the folder where templates are stored. Used to suggest template files when configuring QuickAdd."
+                    "target": "存储模板的文件夹路径。在配置QuickAdd时用于建议模板文件。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Experimental. Resolve variables up front and show a single dynamic form before executing Template/Capture choices. See Advanced → One-page Inputs in docs.",
-                    "target": "Experimental. Resolve variables up front and show a single dynamic form before executing Template/Capture choices. See Advanced → One-page Inputs in docs."
+                    "target": "实验性功能。预先解析变量，并在执行模板/捕获选择之前显示单一动态表单。详见文档中的高级 → 一页输入。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Shortcodes for natural language date parsing. One per line: alias = phrase. Example: tm = tomorrow.",
-                    "target": "Shortcodes for natural language date parsing. One per line: alias = phrase. Example: tm = tomorrow."
+                    "target": "自然语言日期解析的短代码。每行一个：别名 = 短语。例如：tm = 明天。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "This prevents the plugin from making requests to external providers like OpenAI. You can still use User Scripts to execute arbitrary code, including contacting external providers. However, this setting disables plugin features like the AI Assistant from doing so. You need to disable this setting to use the AI Assistant.",
-                    "target": "This prevents the plugin from making requests to external providers like OpenAI. You can still use User Scripts to execute arbitrary code, including contacting external providers. However, this setting disables plugin features like the AI Assistant from doing so. You need to disable this setting to use the AI Assistant."
+                    "target": "这可以阻止插件向外部提供商（如OpenAI）发送请求。您仍然可以使用用户脚本执行任意代码，包括联系外部提供商。但是，此设置禁用了插件功能，如AI助手进行此类操作。您需要禁用此设置才能使用AI助手。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Add QuickAdd icon to the sidebar ribbon. Requires a reload.",
-                    "target": "Add QuickAdd icon to the sidebar ribbon. Requires a reload."
+                    "target": "将快速添加图标添加到侧边栏。需要重新加载。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The string used to join multiple LLM responses together. The default is a newline.",
-                    "target": "The string used to join multiple LLM responses together. The default is a newline."
+                    "target": "用于连接多个LLM响应的字符串。默认为换行符。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The string used to separate chunks of text. The default is a newline.",
-                    "target": "The string used to separate chunks of text. The default is a newline."
+                    "target": "用于分隔文本块的字符串。默认为换行符。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "The maximum number of tokens in each chunk, calculated as the chunk token size + prompt template token size + system prompt token size. Make sure you leave room for the model to respond to the prompt.",
-                    "target": "The maximum number of tokens in each chunk, calculated as the chunk token size + prompt template token size + system prompt token size. Make sure you leave room for the model to respond to the prompt."
+                    "target": "每个文本块中的最大令牌数，计算为块令牌大小 + 提示模板令牌大小 + 系统提示令牌大小。确保您为模型响应提示留出空间。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setDesc",
                     "source": "Merge chunks together by putting them in the same prompt, until the max tokens limit is reached. Useful for sending fewer queries overall, but may result in less coherent responses.",
-                    "target": "Merge chunks together by putting them in the same prompt, until the max tokens limit is reached. Useful for sending fewer queries overall, but may result in less coherent responses."
+                    "target": "通过将它们放在同一个提示中，将块合并在一起，直到达到最大令牌限制。有助于减少总体查询数量，但可能导致响应不够连贯。"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "One-page input override",
-                    "target": "One-page input override"
+                    "target": "一页输入覆盖"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Open",
-                    "target": "Open"
+                    "target": "打开"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "File Opening Location",
-                    "target": "File Opening Location"
+                    "target": "文件打开位置"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Split Direction",
-                    "target": "Split Direction"
+                    "target": "分割方向"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "View Mode",
-                    "target": "View Mode"
+                    "target": "视图模式"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Focus new pane",
-                    "target": "Focus new pane"
+                    "target": "聚焦新面板"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Location",
-                    "target": "Location"
+                    "target": "位置"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Position",
-                    "target": "Position"
+                    "target": "位置"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Linking",
-                    "target": "Linking"
+                    "target": "链接"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Content",
-                    "target": "Content"
+                    "target": "内容"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Behavior",
-                    "target": "Behavior"
+                    "target": "行为"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Run Templater on entire destination file after capture",
-                    "target": "Run Templater on entire destination file after capture"
+                    "target": "在捕获后对整个目标文件运行Templater"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Use editor selection as default value",
-                    "target": "Use editor selection as default value"
+                    "target": "使用编辑器选择作为默认值"
                 },
                 {
                     "type": "CallExpression",
                     "name": "setName",
                     "source": "Capture to",
-                    "target": "Capture to"
+                    "target": "捕获到"
                 },
                 {
                     "type": "CallExpression",
@@ -2326,7 +2326,7 @@
                     "type": "ObjectProperty",
                     "name": "always",
                     "source": "Always",
-                    "target": "Always"
+                    "target": "总是"
                 },
                 {
                     "type": "ObjectProperty",
@@ -2716,31 +2716,31 @@
                     "type": "ObjectProperty",
                     "name": "label",
                     "source": "<current folder>",
-                    "target": "<current folder>"
+                    "target": "<当前文件夹>"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "label",
                     "source": "Math expression",
-                    "target": "Math expression"
+                    "target": "数学表达式"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "label",
                     "source": "Select capture target file",
-                    "target": "Select capture target file"
+                    "target": "选择捕获目标文件"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "left-sidebar",
                     "source": "Left sidebar",
-                    "target": "Left sidebar"
+                    "target": "左侧边栏"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "live",
                     "source": "Live Preview",
-                    "target": "Live Preview"
+                    "target": "实时预览"
                 },
                 {
                     "type": "ObjectProperty",
@@ -2758,7 +2758,7 @@
                     "type": "ObjectProperty",
                     "name": "name",
                     "source": "Document Name",
-                    "target": "Document Name"
+                    "target": "文档名称"
                 },
                 {
                     "type": "ObjectProperty",
@@ -2830,229 +2830,229 @@
                     "type": "ObjectProperty",
                     "name": "name",
                     "source": "Custom",
-                    "target": "Custom"
+                    "target": "自定义"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "name",
                     "source": "Test",
-                    "target": "Test"
+                    "target": "测试"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "never",
                     "source": "Never",
-                    "target": "Never"
+                    "target": "从不"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "placeholder",
                     "source": "File name format",
-                    "target": "File name format"
+                    "target": "文件名格式"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "placeholder",
                     "source": "Insert after",
-                    "target": "Insert after"
+                    "target": "插入后"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "placeholder",
                     "source": "Format",
-                    "target": "Format"
+                    "target": "格式化"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "placeholder",
                     "source": "Template path",
-                    "target": "Template path"
+                    "target": "模板路径"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "placeholder",
                     "source": "Select a JavaScript file",
-                    "target": "Select a JavaScript file"
+                    "target": "选择一个JavaScript文件"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "placeholder",
                     "source": "e.g., 2+2*3",
-                    "target": "e.g., 2+2*3"
+                    "target": "例如，2+2*3"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "preview",
                     "source": "Preview",
-                    "target": "Preview"
+                    "target": "预览"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "prop",
                     "source": "Follow global setting",
-                    "target": "Follow global setting"
+                    "target": "遵循全局设置"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "reuse",
                     "source": "Reuse current tab",
-                    "target": "Reuse current tab"
+                    "target": "重用当前标签页"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "right-sidebar",
                     "source": "Right sidebar",
-                    "target": "Right sidebar"
+                    "target": "右侧边栏"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "source",
                     "source": "Source",
-                    "target": "Source"
+                    "target": "源码"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "split",
                     "source": "Split pane",
-                    "target": "Split pane"
+                    "target": "分割面板"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "tab",
                     "source": "New tab",
-                    "target": "New tab"
+                    "target": "新标签"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Today",
-                    "target": "Today"
+                    "target": "今天"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Clear",
-                    "target": "Clear"
+                    "target": "清除"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Preview:",
-                    "target": "Preview:"
+                    "target": "预览:"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Provide inputs",
-                    "target": "Provide inputs"
+                    "target": "提供输入"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Preview",
-                    "target": "Preview"
+                    "target": "预览"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Preview: ",
-                    "target": "Preview: "
+                    "target": "预览: "
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Tip: open this canvas and select one card to grab its id instantly.",
-                    "target": "Tip: open this canvas and select one card to grab its id instantly."
+                    "target": "提示：打开这个画布并选择一张卡片，立即获取它的ID。"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Open target canvas",
-                    "target": "Open target canvas"
+                    "target": "打开目标画布"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Use selected in open canvas",
-                    "target": "Use selected in open canvas"
+                    "target": "使用在打开的画布中选择的"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Loading canvas nodes…",
-                    "target": "Loading canvas nodes…"
+                    "target": "正在加载画布节点…"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "No nodes match the current filter.",
-                    "target": "No nodes match the current filter."
+                    "target": "没有节点匹配当前的过滤器。"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Copy ID",
-                    "target": "Copy ID"
+                    "target": "复制ID"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Choose folder when creating a new note",
-                    "target": "Choose folder when creating a new note"
+                    "target": "创建新笔记时选择文件夹"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Exact for OpenAI models; estimates for others.",
-                    "target": "Exact for OpenAI models; estimates for others."
+                    "target": "OpenAI模型精确；其他模型估计。"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Configure Conditional Command",
-                    "target": "Configure Conditional Command"
+                    "target": "配置条件命令"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Add a provider",
-                    "target": "Add a provider"
+                    "target": "添加一个提供者"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Docs",
-                    "target": "Docs"
+                    "target": "文档"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "AI Assistant Settings",
-                    "target": "AI Assistant Settings"
+                    "target": "AI助手设置"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "text",
                     "source": "Fetching release notes...",
-                    "target": "Fetching release notes..."
+                    "target": "正在获取发布说明..."
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "title",
                     "source": "My Document Title",
-                    "target": "My Document Title"
+                    "target": "我的文档标题"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "vertical",
                     "source": "Split right",
-                    "target": "Split right"
+                    "target": "右侧分割"
                 },
                 {
                     "type": "ObjectProperty",
                     "name": "window",
                     "source": "New window",
-                    "target": "New window"
+                    "target": "新窗口"
                 }
             ],
             "regex": [
