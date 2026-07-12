@@ -1,3 +1,3 @@
 # obsidian-i18n-resources
 
-标题将作为该翻译在社区中的主名称。
+Obsidian 插件的汉化中文翻译 zh-cn
